@@ -28,4 +28,10 @@ sudo chsh -s $(which zsh)
 # checking default shell
 echo $SHELL
 
+# install oh-my-zsh
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# install zsh-autosuggestions
+
+
 
